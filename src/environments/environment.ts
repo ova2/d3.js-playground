@@ -3,9 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  // schematisierungBaseUrl: 'http://localhost:8160'
-  schematisierungBaseUrl: 'http://visualisierung-pn-tms-l-dev.app.ose.sbb-cloud.net/'
+  production: false
 };
 
 /*

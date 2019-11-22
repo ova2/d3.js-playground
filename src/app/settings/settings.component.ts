@@ -4,7 +4,6 @@ import { Gleisbild } from '../gleisbild/gleisbild.interface';
 import { EMPTY } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { GleisbildStore } from '../gleisbild/gleisbild.store';
-import { TopoElement } from '../../../src-gen/dto/dtos';
 
 @Component({
   selector: 'ssp-editor-settings',
