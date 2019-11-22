@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.zoom-area {
+  pointer-events: all;
+  fill: none;
+  stroke-width: 0;
+}
+
+.element-edge {
+  stroke: #465A6E;
+  stroke-width: 2.5;
+  fill: none;
+}
+
+.element-hauptsignal {
+  fill: #001419;
+  stroke: #465A6E;
+  stroke-width: 1.4;
+}
+
+.element-label-bp {
+  fill: #077a7e;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  alignment-baseline: central;
+}

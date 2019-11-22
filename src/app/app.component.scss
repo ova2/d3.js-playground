@@ -1,0 +1,23 @@
+.appContainer {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+
+  > .grid-cell {
+    border: solid 1px #cccccc;
+    height: calc(100vh - 40px);
+    margin: 20px;
+
+    &.draw-pane {
+      margin-right: 10px;
+    }
+
+    &.right-pane {
+      padding: 10px;
+      margin-left: 10px;
+      vertical-align: top;
+      text-align: left;
+      border-radius: 6px;
+      min-width: 200px;
+    }
+  }
+}

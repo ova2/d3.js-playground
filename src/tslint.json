@@ -1,0 +1,17 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "sspEditor",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ssp-editor",
+      "kebab-case"
+    ]
+  }
+}

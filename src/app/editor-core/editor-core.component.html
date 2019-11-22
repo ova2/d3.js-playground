@@ -1,0 +1,9 @@
+<svg #svg width="100%" height="100%">
+  <defs>
+    <pattern id="grid-pattern" x="0" y="0" [attr.width]="gridUnit" [attr.height]="gridUnit" patternUnits="userSpaceOnUse">
+      <line [attr.y1]="gridUnit" [attr.x2]="gridUnit" [attr.y2]="gridUnit" class="grid-line"/>
+      <line [attr.x1]="gridUnit" [attr.x2]="gridUnit" [attr.y2]="gridUnit" class="grid-line"/>
+    </pattern>
+  </defs>
+  <g #drawingSurface></g>
+</svg>
