@@ -1,6 +1,6 @@
 {
   "name": "ssp-editor",
-  "description": "This is an editor to create SSP definitions intended to be used by SSP-UI.",
+  "description": "This is an editor to create SSP definitions",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -57,9 +57,5 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.5.3"
-  },
-  "author": {
-    "name": "Team Dachs",
-    "email": "dl12647@sbb.ch"
   }
 }
